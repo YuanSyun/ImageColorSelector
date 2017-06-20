@@ -7,7 +7,7 @@
 	<script src="src/index.js"></script>
 </head>
 
-<body>
+<body onload="init()">
 	<div class="divContext">
 		<div class="divTitle">
 			<img src="./Image/colorwheel_256.png" alt="colorwheel" style="width:128px;height:128px;float:left;">
@@ -21,9 +21,20 @@
 		</div>
 		
 		<div class="divButton">
-			<button onclick="btnR()">R</button>
-			<button onclick="btnG()">G</button>
-			<button onclick="btnB()">B</button>
+			<button onclick="btnR()" style="float:left;background-color:red;">R</button>
+			<button onclick="btnG()" style="float:left;background-color:green;">G</button>
+			<button onclick="btnB()" style="float:left;background-color:blue;">B</button>
+		</div>
+
+		<div class="divScore">
+			<p id="pScore"><p>
+		</div>
+
+		<div class="divAudio">
+			<audio id="soundPlayer" controls>
+				<source id="mp3Src" src="" type="audio/mpeg">
+				<source id="oggSrc" src="" type="audio/ogg">
+			</audio>
 		</div>
 	</div>
 </body>

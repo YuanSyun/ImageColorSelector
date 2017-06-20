@@ -15,9 +15,6 @@ div.divTitle{
 	/*border: 1px solid red;*/
 }
 
-div.divTitle img,h1{
-}
-
 div.divTitleText{
 	padding: 24.5px 0px;
 	/*border: 1px solid black;*/
@@ -26,4 +23,13 @@ div.divTitleText{
 div.divImage{
 	margin: 0px 20px;
 	
+}
+
+div.divButton button{
+	width: 100%;
+	height: 50px;
+}
+
+div.divAudio{
+	display: none;
 }
