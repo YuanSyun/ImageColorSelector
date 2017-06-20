@@ -1,22 +1,29 @@
+<!DOCTYPE html>
 <html>
 
 <head>
 	<title>ImageColorSelect</title>
 	<link rel="stylesheet" href="styles.css">
+	<script src="src/index.js"></script>
 </head>
 
 <body>
 	<div class="divContext">
 		<div class="divTitle">
-			<img src="./Image/colorwheel_256.png" alt = "colorwheel" style="width:128px;height:128px;float:left;">
+			<img src="./Image/colorwheel_256.png" alt="colorwheel" style="width:128px;height:128px;float:left;">
 			<div class="divTitleText">
 				<h1>ImageColorSelect</h1>
 			</div>
 		</div>
+		
 		<div class="divImage">
-			
+			<img id="showImage" alt="showImage">
 		</div>
+		
 		<div class="divButton">
+			<button onclick="btnR()">R</button>
+			<button onclick="btnG()">G</button>
+			<button onclick="btnB()">B</button>
 		</div>
 	</div>
 </body>
