@@ -1,0 +1,29 @@
+body{
+	background-color: powderblue;
+	width: 1280px;
+	margin: 0px auto;
+}
+
+div.divContext{
+	background-color: #C0C0C0;
+	padding: 0px 10px;
+	/*border: 1px solid blue;*/
+}
+
+div.divTitle{
+	margin: 20px 0px 0px;
+	/*border: 1px solid red;*/
+}
+
+div.divTitle img,h1{
+}
+
+div.divTitleText{
+	padding: 24.5px 0px;
+	/*border: 1px solid black;*/
+}
+
+div.divImage{
+	margin: 0px 20px;
+	
+}
