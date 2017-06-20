@@ -1,17 +1,18 @@
 body{
 	background-color: powderblue;
-	width: 1280px;
+	max-width: 1280px;
+	width: 100%;
 	margin: 0px auto;
 }
 
 div.divContext{
-	background-color: #C0C0C0;
+	background-color:#FCFCFC;
 	padding: 0px 10px;
 	/*border: 1px solid blue;*/
 }
 
 div.divTitle{
-	margin: 20px 0px 0px;
+	padding: 20px 0px 0px;
 	/*border: 1px solid red;*/
 }
 
@@ -21,13 +22,19 @@ div.divTitleText{
 }
 
 div.divImage{
-	margin: 0px 20px;
-	
+	margin: 0px auto;
+	width: 100%;
+}
+
+div.divButton{
+	width: 100%;
+	height: 100px;
 }
 
 div.divButton button{
-	width: 100%;
+	width: 33.3%;
 	height: 50px;
+	float: left;
 }
 
 div.divAudio{

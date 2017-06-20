@@ -1,7 +1,7 @@
 var data =[
 		["R","./Image/apple.png"],
 		["G","./Image/pear.png"],
-		["B","./Image/grape.png"],
+		["B","./Image/Water.png"],
 	];
 var counter;
 var scoreText;
